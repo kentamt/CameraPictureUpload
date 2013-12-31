@@ -7,6 +7,8 @@
 //
 // test commit
 #import "ViewController.h"
+#import <ImageIO/ImageIO.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface ViewController ()
 
@@ -22,7 +24,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *imgPath = [NSString stringWithFormat:@"%@/exit_test.JPG", [[NSBundle mainBundle] resourcePath]];
+    CGImageSourceRef source = CGImageSourceCreateWithURL((CFURLRef)CFBridgingRetain([NSURL fileURLWithPath:imgPath]), nil);
+    
+    NSDictionary *metadata = (NSDictionary *) CFBridgingRelease(CGImageSourceCopyPropertiesAtIndex(source, 0, nil));
+    
+    //GPS Dictionary
+    NSDictionary *GPSDictionary = [metadata objectForKey:(NSString *)kCGImagePropertyGPSDictionary];
+
 }
 
 - (void)didReceiveMemoryWarning
