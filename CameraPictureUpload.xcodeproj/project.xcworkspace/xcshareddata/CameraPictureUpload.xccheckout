@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F6CB7604-62A6-4B98-866E-831B90D46820</string>
+	<string>FA281AE8-D451-4F5E-A5DD-BE12EE4F0FF1</string>
 	<key>IDESourceControlProjectName</key>
 	<string>CameraPictureUpload</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>ADCEA393-6AC6-4DB1-936C-B1ED4E06456A</key>
-		<string>https://github.com/kkkmmm/CameraPictureUpload.git</string>
+		<key>6BB4E00B-F8D9-44F5-8A94-5C391F79A619</key>
+		<string>https://github.com/okahiro/CameraPictureUpload.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>CameraPictureUpload.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>ADCEA393-6AC6-4DB1-936C-B1ED4E06456A</key>
+		<key>6BB4E00B-F8D9-44F5-8A94-5C391F79A619</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/kkkmmm/CameraPictureUpload.git</string>
+	<string>https://github.com/okahiro/CameraPictureUpload.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>ADCEA393-6AC6-4DB1-936C-B1ED4E06456A</string>
+	<string>6BB4E00B-F8D9-44F5-8A94-5C391F79A619</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>ADCEA393-6AC6-4DB1-936C-B1ED4E06456A</string>
+			<string>6BB4E00B-F8D9-44F5-8A94-5C391F79A619</string>
 			<key>IDESourceControlWCCName</key>
 			<string>CameraPictureUpload</string>
 		</dict>
