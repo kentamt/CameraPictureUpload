@@ -5,7 +5,7 @@
 //  Created by 岡内和博 on 12/10/29.
 //  Copyright (c) 2012年 Okahiro. All rights reserved.
 //
-
+// test commit
 #import "ViewController.h"
 
 @interface ViewController ()
