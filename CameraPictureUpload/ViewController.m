@@ -32,6 +32,8 @@
     
     //GPS Dictionary
     NSDictionary *GPSDictionary = [metadata objectForKey:(NSString *)kCGImagePropertyGPSDictionary];
+    
+    NSLog(@"%@", GPSDictionary[@"TimeStamp"]);
 
 }
 
